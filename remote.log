@@ -1,0 +1,1 @@
+bed776fb-e936-4507-9fad-627ea4ef109d bucket=nonzen-cs-papers-bucket0 datacenter=US encryption=none host=s3.us.archive.org mungekeys=ia name=nonzen-cs-papers port=80 storageclass=STANDARD type=S3 x-amz-auto-make-bucket=1 timestamp=1432843337.172374s
