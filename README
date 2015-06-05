@@ -5,7 +5,7 @@ over on some rainy/snowy days.
 Please note the labored avoidance of any first person pronoun at all.
 That, as you might imagine, is intentional.
 
-To make a local copy, do this:
+To make a local copy, clone this repository, and then do this:
 
     git annex init
     git annex get .
