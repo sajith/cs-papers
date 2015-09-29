@@ -1645,3 +1645,17 @@
  publisher = {ACM},
  address = {New York, NY, USA},
 }
+
+@techreport{Condit:EECS-2006-129,
+    Author = {Condit, Jeremy Paul and Harren, Matthew Thomas and Anderson, Zachary Ryan and Gay, David and Necula, George},
+    Title = {Dependent Types for Low-Level Programming},
+    Institution = {EECS Department, University of California, Berkeley},
+    Year = {2006},
+    Month = {Oct},
+    URL = {http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-129.html},
+    Number = {UCB/EECS-2006-129},
+    Abstract = {We describe the key principles of a flexible dependent type system for low-level imperative languages. Two major contributions are (1) a new typing rule for handling mutation that follows the model of Hoare's axiom for assignment and (2) a technique for automatically inferring dependent types for local variables. This type system is more expressive than previous dependent type systems because types can now depend on mutable variables; in addition, it improves ease of use by inferring dependent type annotations for local variables.  Decidability is addressed by emitting run-time checks for those conditions that cannot be checked statically.
+
+Using these principles, we have designed Deputy, a dependent type system for C whose types allow the programmer to describe several common idioms for the safe use of pointers and tagged unions. We have used Deputy to enforce memory safety properties in a number of common benchmark suites as well as in Linux device drivers and TinyOS components.  These experiments show that Deputy's dependent types are useful in a wide range of C programs and that they have a relatively low annotation burden and performance cost.}
+}
+
